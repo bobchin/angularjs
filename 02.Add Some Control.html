@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja" ng-app="todoApp">
+<!--
+データバインディング：
+自動的にモデルに変更があればビューが更新され、ビューが更新されたらモデルが変更される。
+このおかげでDOM操作を省略できます。
+
+コントローラ：
+DOM要素の背後にある振る舞いです。
+AngularJS は、DOM更新やコールバックの登録やモデルの変更の監視といった決まり文句を使わずに
+可読しやすい振る舞いを表現させます。
+
+JavaScriptのまま：
+他のフレームワークとは違って、アクセサメソッドでモデルをラップするために
+組み込み型を継承する必要がありません。
+AngularモデルはプレーンなJavascriptのオブジェクトです。
+このためコードのテストやメンテナンスや再利用が容易になります。
+-->
 <head>
 	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
